@@ -1,0 +1,98 @@
+{
+  "gameID": "beatBag",
+  "gameName": "Beat Bag",
+  "series": "side",
+  "cues": [
+    {
+      "id": "beatBag/offbeat",
+      "duration": 0.5,
+      "name": "offbeat - half"
+    },
+    {
+      "id": "beatBag/onbeat1",
+      "duration": 0.25,
+      "name": "onbeat - 1"
+    },
+    {
+      "id": "beatBag/onbeat2",
+      "duration": 0.25,
+      "name": "onbeat - 2"
+    },
+    {
+      "id": "beatBag/onbeat3",
+      "duration": 0.25,
+      "name": "onbeat - 3"
+    },
+    {
+      "id": "beatBag/onbeat4",
+      "duration": 0.25,
+      "name": "onbeat - 4"
+    },
+    {
+      "id": "beatBag/onbeat5",
+      "duration": 0.25,
+      "name": "onbeat - 5"
+    },
+    {
+      "id": "beatBag/offbeat1",
+      "duration": 0.25,
+      "name": "offbeat - quarter - 1"
+    },
+    {
+      "id": "beatBag/offbeat2",
+      "duration": 0.25,
+      "name": "offbeat - quarter - 2"
+    },
+    {
+      "id": "beatBag/offbeat3",
+      "duration": 0.25,
+      "name": "offbeat - quarter - 3"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "beatBag_onbeat",
+      "name": "onbeat",
+      "cues": [
+        {
+          "id": "beatBag/onbeat1",
+          "beat": 0.0
+        },
+        {
+          "id": "beatBag/onbeat2",
+          "beat": 0.25
+        },
+        {
+          "id": "beatBag/onbeat3",
+          "beat": 0.5
+        },
+        {
+          "id": "beatBag/onbeat4",
+          "beat": 0.75
+        },
+        {
+          "id": "beatBag/onbeat5",
+          "beat": 1.0
+        }
+      ]
+    },
+    {
+      "id": "beatBag_offbeat",
+      "name": "offbeat - quarter",
+      "cues": [
+        {
+          "id": "beatBag/offbeat1",
+          "beat": 0.0
+        },
+        {
+          "id": "beatBag/offbeat2",
+          "beat": 0.25
+        },
+        {
+          "id": "beatBag/offbeat3",
+          "beat": 0.5
+        }
+      ]
+    }
+  ]
+}
