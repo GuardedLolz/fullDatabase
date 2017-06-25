@@ -1,0 +1,61 @@
+{
+  "gameID": "beatMachine",
+  "gameName": "Beat Machine",
+  "series": "side",
+  "cues": [
+    {
+      "id": "beatMachine/hold",
+      "duration": 0.5,
+      "name": "hold"
+    },
+    {
+      "id": "beatMachine/flick",
+      "duration": 0.5,
+      "name": "flick"
+    },
+    {
+      "id": "beatMachine/tap1",
+      "duration": 0.25,
+      "name": "tap - 1"
+    },
+    {
+      "id": "beatMachine/tap2",
+      "duration": 0.25,
+      "name": "tap - 2"
+    },
+    {
+      "id": "beatMachine/tap3",
+      "duration": 0.25,
+      "name": "tap - 3"
+    },
+    {
+      "id": "beatMachine/tap4",
+      "duration": 0.25,
+      "name": "tap - 4"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "beatMachine_tap",
+      "name": "tap",
+      "cues": [
+        {
+          "id": "beatMachine/tap1",
+          "beat": 0.0
+        },
+        {
+          "id": "beatMachine/tap2",
+          "beat": 0.25
+        },
+        {
+          "id": "beatMachine/tap3",
+          "beat": 0.5
+        },
+        {
+          "id": "beatMachine/tap4",
+          "beat": 0.75
+        }
+      ]
+    }
+  ]
+}
