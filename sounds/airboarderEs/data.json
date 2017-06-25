@@ -1,0 +1,143 @@
+{
+  "gameID": "airboarderEs",
+  "gameName": "Airboarder (Spanish)",
+  "series": "ds",
+  "cues": [
+    {
+      "id": "airboarderEs/adalante1",
+      "duration": 6.5,
+      "baseBpm": 160,
+      "name": "yeah... adalante! - 1"
+    },
+    {
+      "id": "airboarderEs/adalante2",
+      "duration": 0.25,
+      "name": "yeah... adalante! - 2"
+    },
+    {
+      "id": "airboarderEs/adalante3",
+      "duration": 0.25,
+      "name": "yeah... adalante! - 3"
+    },
+    {
+      "id": "airboarderEs/adalante4",
+      "duration": 0.5,
+      "name": "yeah... adalante! - 4"
+    },
+    {
+      "id": "airboarderEs/adalante5",
+      "duration": 0.5,
+      "name": "yeah... adalante! - 5"
+    },
+    {
+      "id": "airboarderEs/hup",
+      "duration": 1,
+      "name": "ready"
+    },
+    {
+      "id": "airboarderEs/crouch",
+      "duration": 1,
+      "name": "crouch"
+    },
+    {
+      "id": "airboarderEs/glow",
+      "duration": 1,
+      "name": "glow"
+    },
+    {
+      "id": "airboarderEs/jump",
+      "duration": 1,
+      "name": "jump"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "airboarderEs_adalante",
+      "name": "yeah... adalante!",
+      "cues": [
+        {
+          "id": "airboarderEs/adalante1",
+          "beat": 0
+        },
+        {
+          "id": "airboarderEs/adalante2",
+          "beat": 6.5
+        },
+        {
+          "id": "airboarderEs/adalante3",
+          "beat": 6.75
+        },
+        {
+          "id": "airboarderEs/adalante4",
+          "beat": 7
+        },
+        {
+          "id": "airboarderEs/adalante5",
+          "beat": 7.5
+        }
+      ]
+    },
+    {
+      "id": "airboarderEs_crouch",
+      "name": "crouch",
+      "cues": [
+        {
+          "id": "airboarderEs/hup",
+          "beat": 0
+        },
+        {
+          "id": "airboarderEs/crouch",
+          "beat": 1
+        },
+        {
+          "id": "airboarderEs/crouch",
+          "beat": 2
+        },
+        {
+          "id": "airboarderEs/crouch",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "id": "airboarderEs_chargeCrouch",
+      "name": "charge crouch",
+      "cues": [
+        {
+          "id": "airboarderEs/hup",
+          "beat": 0
+        },
+        {
+          "id": "airboarderEs/glow",
+          "beat": 1
+        },
+        {
+          "id": "airboarderEs/glow",
+          "beat": 2
+        },
+        {
+          "id": "airboarderEs/glow",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "id": "airboarderEs_jump",
+      "name": "jump",
+      "cues": [
+        {
+          "id": "airboarderEs/jump",
+          "beat": 0
+        },
+        {
+          "id": "airboarderEs/jump",
+          "beat": 1
+        },
+        {
+          "id": "airboarderEs/jump",
+          "beat": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "gameID": "airboarderDe",
+  "gameName": "Airboarder (German)",
+  "series": "ds",
+  "cues": [
+    {
+      "id": "airboarderDe/letsGo1",
+      "duration": 6.5,
+      "baseBpm": 160,
+      "name": "yeah... let's go! - 1"
+    },
+    {
+      "id": "airboarderDe/letsGo2",
+      "duration": 0.5,
+      "name": "yeah... let's go! - 2"
+    },
+    {
+      "id": "airboarderDe/letsGo3",
+      "duration": 0.5,
+      "name": "yeah... let's go! - 3"
+    },
+    {
+      "id": "airboarderDe/hup",
+      "duration": 1,
+      "name": "ready"
+    },
+    {
+      "id": "airboarderDe/crouch",
+      "duration": 1,
+      "name": "crouch"
+    },
+    {
+      "id": "airboarderDe/glow",
+      "duration": 1,
+      "name": "glow"
+    },
+    {
+      "id": "airboarderDe/jump",
+      "duration": 1,
+      "name": "jump"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "airboarderDe_letsGo",
+      "name": "yeah... let's go!",
+      "cues": [
+        {
+          "id": "airboarderDe/letsGo1",
+          "beat": 0
+        },
+        {
+          "id": "airboarderDe/letsGo2",
+          "beat": 6.5
+        },
+        {
+          "id": "airboarderDe/letsGo3",
+          "beat": 7
+        }
+      ]
+    },
+    {
+      "id": "airboarderDe_crouch",
+      "name": "crouch",
+      "cues": [
+        {
+          "id": "airboarderDe/hup",
+          "beat": 0
+        },
+        {
+          "id": "airboarderDe/crouch",
+          "beat": 1
+        },
+        {
+          "id": "airboarderDe/crouch",
+          "beat": 2
+        },
+        {
+          "id": "airboarderDe/crouch",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "id": "airboarderDe_chargeCrouch",
+      "name": "charge crouch",
+      "cues": [
+        {
+          "id": "airboarderDe/hup",
+          "beat": 0
+        },
+        {
+          "id": "airboarderDe/glow",
+          "beat": 1
+        },
+        {
+          "id": "airboarderDe/glow",
+          "beat": 2
+        },
+        {
+          "id": "airboarderDe/glow",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "id": "airboarderDe_jump",
+      "name": "jump",
+      "cues": [
+        {
+          "id": "airboarderDe/jump",
+          "beat": 0
+        },
+        {
+          "id": "airboarderDe/jump",
+          "beat": 1
+        },
+        {
+          "id": "airboarderDe/jump",
+          "beat": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "gameID": "airboarderIt",
+  "gameName": "Airboarder (Italian)",
+  "series": "ds",
+  "cues": [
+    {
+      "id": "airboarderIt/letsGo1",
+      "duration": 6.5,
+      "baseBpm": 160,
+      "name": "yeah... let's go! - 1"
+    },
+    {
+      "id": "airboarderIt/letsGo2",
+      "duration": 0.5,
+      "name": "yeah... let's go! - 2"
+    },
+    {
+      "id": "airboarderIt/letsGo3",
+      "duration": 0.5,
+      "name": "yeah... let's go! - 3"
+    },
+    {
+      "id": "airboarderIt/hup",
+      "duration": 1,
+      "name": "ready"
+    },
+    {
+      "id": "airboarderIt/crouch",
+      "duration": 1,
+      "name": "crouch"
+    },
+    {
+      "id": "airboarderIt/glow",
+      "duration": 1,
+      "name": "glow"
+    },
+    {
+      "id": "airboarderIt/jump",
+      "duration": 1,
+      "name": "jump"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "airboarderIt_letsGo",
+      "name": "yeah... let's go!",
+      "cues": [
+        {
+          "id": "airboarderIt/letsGo1",
+          "beat": 0
+        },
+        {
+          "id": "airboarderIt/letsGo2",
+          "beat": 6.5
+        },
+        {
+          "id": "airboarderIt/letsGo3",
+          "beat": 7
+        }
+      ]
+    },
+    {
+      "id": "airboarderIt_crouch",
+      "name": "crouch",
+      "cues": [
+        {
+          "id": "airboarderIt/hup",
+          "beat": 0
+        },
+        {
+          "id": "airboarderIt/crouch",
+          "beat": 1
+        },
+        {
+          "id": "airboarderIt/crouch",
+          "beat": 2
+        },
+        {
+          "id": "airboarderIt/crouch",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "id": "airboarderIt_chargeCrouch",
+      "name": "charge crouch",
+      "cues": [
+        {
+          "id": "airboarderIt/hup",
+          "beat": 0
+        },
+        {
+          "id": "airboarderIt/glow",
+          "beat": 1
+        },
+        {
+          "id": "airboarderIt/glow",
+          "beat": 2
+        },
+        {
+          "id": "airboarderIt/glow",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "id": "airboarderIt_jump",
+      "name": "jump",
+      "cues": [
+        {
+          "id": "airboarderIt/jump",
+          "beat": 0
+        },
+        {
+          "id": "airboarderIt/jump",
+          "beat": 1
+        },
+        {
+          "id": "airboarderIt/jump",
+          "beat": 2
+        }
+      ]
+    }
+  ]
+}

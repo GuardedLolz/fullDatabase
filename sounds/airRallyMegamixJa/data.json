@@ -1,0 +1,456 @@
+{
+  "gameID": "airRallyMegamixJa",
+  "gameName": "Air Rally (Megamix) (Japanese)",
+  "series": "megamix",
+  "cues": [
+    {
+      "id": "airRallyMegamixJa/start",
+      "duration": 0.5,
+      "name": "start"
+    },
+    {
+      "id": "airRallyMegamixJa/birdieCatch",
+      "duration": 0.5,
+      "name": "forthington - catch birdie"
+    },
+    {
+      "id": "airRallyMegamixJa/countIn1",
+      "duration": 0.5,
+      "name": "forthington - count in - one"
+    },
+    {
+      "id": "airRallyMegamixJa/countIn2",
+      "duration": 0.5,
+      "name": "forthington - count in - two"
+    },
+    {
+      "id": "airRallyMegamixJa/countIn3",
+      "duration": 0.5,
+      "name": "forthington - count in - three"
+    },
+    {
+      "id": "airRallyMegamixJa/countIn4",
+      "duration": 0.5,
+      "name": "forthington - count in - four"
+    },
+    {
+      "id": "airRallyMegamixJa/hitBaxter",
+      "duration": 0.5,
+      "name": "baxter - hit"
+    },
+    {
+      "id": "airRallyMegamixJa/hitForth",
+      "duration": 0.5,
+      "name": "forthington - hit"
+    },
+    {
+      "id": "airRallyMegamixJa/hitBaxterFarther",
+      "duration": 0.5,
+      "name": "baxter - hit - farther"
+    },
+    {
+      "id": "airRallyMegamixJa/hitForthFarther",
+      "duration": 0.5,
+      "name": "forthington - hit - farther"
+    },
+    {
+      "id": "airRallyMegamixJa/hitBaxterFar",
+      "duration": 0.5,
+      "name": "baxter - hit - far"
+    },
+    {
+      "id": "airRallyMegamixJa/hitForthFar",
+      "duration": 0.5,
+      "name": "forthington - hit - far"
+    },
+    {
+      "id": "airRallyMegamixJa/hitBaxterFurther",
+      "duration": 0.5,
+      "name": "baxter - hit - further"
+    },
+    {
+      "id": "airRallyMegamixJa/hitForthFurther",
+      "duration": 0.5,
+      "name": "forthington - hit - further"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBum1",
+      "duration": 0.5,
+      "name": "ba bum bum bum - 1"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBum2",
+      "duration": 0.5,
+      "name": "ba bum bum bum - 2"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBum3",
+      "duration": 0.5,
+      "name": "ba bum bum bum - 3"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBum2Sub",
+      "duration": 0.5,
+      "name": "ba bum bum bum - 2 - subsequent"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBum3Sub",
+      "duration": 0.5,
+      "name": "ba bum bum bum - 3 - subsequent"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBum4",
+      "duration": 0.5,
+      "name": "ba bum bum bum - 4"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBumFarther1",
+      "duration": 0.5,
+      "name": "ba bum bum bum - farther - 1"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBumFarther2",
+      "duration": 0.5,
+      "name": "ba bum bum bum - farther - 2"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBumFarther3",
+      "duration": 0.5,
+      "name": "ba bum bum bum - farther - 3"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBumFarther4",
+      "duration": 0.75,
+      "name": "ba bum bum bum - farther - 4"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBumFartherHit",
+      "duration": 0.5,
+      "name": "ba bum bum bum - farther - hit"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBumFar1",
+      "duration": 0.5,
+      "name": "ba bum bum bum - far - 1"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBumFar2",
+      "duration": 0.5,
+      "name": "ba bum bum bum - far - 2"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBumFar3",
+      "duration": 0.5,
+      "name": "ba bum bum bum - far - 3"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBumFar4",
+      "duration": 0.75,
+      "name": "ba bum bum bum - far - 4"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBumFarHit",
+      "duration": 0.5,
+      "name": "ba bum bum bum - far - hit"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBumFurther1",
+      "duration": 0.5,
+      "name": "ba bum bum bum - further - 1"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBumFurther2",
+      "duration": 0.5,
+      "name": "ba bum bum bum - further - 2"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBumFurther3",
+      "duration": 0.5,
+      "name": "ba bum bum bum - further - 3"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBumFurther4",
+      "duration": 0.75,
+      "name": "ba bum bum bum - further - 4"
+    },
+    {
+      "id": "airRallyMegamixJa/baBumBumBumFurtherHit",
+      "duration": 0.5,
+      "name": "ba bum bum bum - further - hit"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "airRallyMegamixJa_countIn4",
+      "name": "count in - 4 beats",
+      "cues": [
+        {
+          "id": "airRallyMegamixJa/countIn1",
+          "beat": 0.0
+        },
+        {
+          "id": "airRallyMegamixJa/countIn2",
+          "beat": 1.0
+        },
+        {
+          "id": "airRallyMegamixJa/countIn3",
+          "beat": 2.0
+        },
+        {
+          "id": "airRallyMegamixJa/countIn4",
+          "beat": 3.0
+        }
+      ]
+    },
+	{
+      "id": "airRallyMegamixJa_countIn2",
+      "name": "count in - 2 beats",
+      "cues": [
+        {
+          "id": "airRallyMegamixJa/countIn3",
+          "beat": 0.0
+        },
+        {
+          "id": "airRallyMegamixJa/countIn4",
+          "beat": 1.0
+        }
+      ]
+    },
+    {
+      "id": "airRallyMegamixJa_rally",
+      "name": "rally",
+      "cues": [
+        {
+          "id": "airRallyMegamixJa/hitForth",
+          "beat": 0.0
+        },
+        {
+          "id": "airRallyMegamixJa/hitBaxter",
+          "beat": 1.0
+        },
+        {
+          "id": "airRallyMegamixJa/hitForth",
+          "beat": 2.0
+        },
+        {
+          "id": "airRallyMegamixJa/hitBaxter",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "id": "airRallyMegamixJa_rallyFarther",
+      "name": "rally - farther",
+      "cues": [
+        {
+          "id": "airRallyMegamixJa/hitForthFarther",
+          "beat": 0.0
+        },
+        {
+          "id": "airRallyMegamixJa/hitBaxterFarther",
+          "beat": 1.0
+        },
+        {
+          "id": "airRallyMegamixJa/hitForthFarther",
+          "beat": 2.0
+        },
+        {
+          "id": "airRallyMegamixJa/hitBaxterFarther",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "id": "airRallyMegamixJa_rallyFar",
+      "name": "rally - far",
+      "cues": [
+        {
+          "id": "airRallyMegamixJa/hitForthFar",
+          "beat": 0.0
+        },
+        {
+          "id": "airRallyMegamixJa/hitBaxterFar",
+          "beat": 1.0
+        },
+        {
+          "id": "airRallyMegamixJa/hitForthFar",
+          "beat": 2.0
+        },
+        {
+          "id": "airRallyMegamixJa/hitBaxterFar",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "id": "airRallyMegamixJa_rallyFurther",
+      "name": "rally - farthest",
+      "cues": [
+        {
+          "id": "airRallyMegamixJa/hitForthFurther",
+          "beat": 0.0
+        },
+        {
+          "id": "airRallyMegamixJa/hitBaxterFurther",
+          "beat": 1.0
+        },
+        {
+          "id": "airRallyMegamixJa/hitForthFurther",
+          "beat": 2.0
+        },
+        {
+          "id": "airRallyMegamixJa/hitBaxterFurther",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "id": "airRallyMegamixJa_baBumBumBum",
+      "name": "ba bum bum bum - first",
+      "cues": [
+        {
+          "id": "airRallyMegamixJa/baBumBumBum1",
+          "beat": 0.0
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBum2",
+          "beat": 0.5
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBum3",
+          "beat": 1.5
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBum4",
+          "beat": 2.5
+        },
+        {
+          "id": "airRallyMegamixJa/hitBaxter",
+          "beat": 4.5
+        }
+      ]
+    },
+    {
+      "id": "airRallyMegamixJa_baBumBumBumSub",
+      "name": "ba bum bum bum",
+      "cues": [
+        {
+          "id": "airRallyMegamixJa/baBumBumBum1",
+          "beat": 0.0
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBum2Sub",
+          "beat": 0.5
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBum3Sub",
+          "beat": 1.5
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBum4",
+          "beat": 2.5
+        },
+        {
+          "id": "airRallyMegamixJa/hitBaxter",
+          "beat": 4.5
+        }
+      ]
+    },
+    {
+      "id": "airRallyMegamixJa_countIn3",
+      "name": "ba bum bum bum - count in",
+      "cues": [
+        {
+          "id": "airRallyMegamixJa/countIn2",
+          "beat": 0.0
+        },
+        {
+          "id": "airRallyMegamixJa/countIn3",
+          "beat": 1.0
+        },
+        {
+          "id": "airRallyMegamixJa/countIn4",
+          "beat": 2.0
+        }
+      ]
+    },
+    {
+      "id": "airRallyMegamixJa_baBumBumBumFarther",
+      "name": "ba bum bum bum - farther",
+      "cues": [
+        {
+          "id": "airRallyMegamixJa/baBumBumBumFarther1",
+          "beat": 0.0
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBumFarther2",
+          "beat": 0.5
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBumFarther3",
+          "beat": 1.5
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBumFarther4",
+          "beat": 2.5
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBumFartherHit",
+          "beat": 4.5
+        }
+      ]
+    },
+    {
+      "id": "airRallyMegamixJa_baBumBumBumFar",
+      "name": "ba bum bum bum - far",
+      "cues": [
+        {
+          "id": "airRallyMegamixJa/baBumBumBumFar1",
+          "beat": 0.0
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBumFar2",
+          "beat": 0.5
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBumFar3",
+          "beat": 1.5
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBumFar4",
+          "beat": 2.5
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBumFarHit",
+          "beat": 4.5
+        }
+      ]
+    },
+    {
+      "id": "airRallyMegamixJa_baBumBumBumFurther",
+      "name": "ba bum bum bum - further",
+      "cues": [
+        {
+          "id": "airRallyMegamixJa/baBumBumBumFurther1",
+          "beat": 0.0
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBumFurther2",
+          "beat": 0.5
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBumFurther3",
+          "beat": 1.5
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBumFurther4",
+          "beat": 2.5
+        },
+        {
+          "id": "airRallyMegamixJa/baBumBumBumFurtherHit",
+          "beat": 4.5
+        }
+      ]
+    }
+  ]
+}
