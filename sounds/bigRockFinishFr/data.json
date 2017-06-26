@@ -1,0 +1,267 @@
+{
+  "gameID": "bigRockFinishFr",
+  "gameName": "Big Rock Finish (DS) (French)",
+  "series": "ds",
+  "cues": [
+    {
+      "id": "bigRockFinishFr/merciLoud",
+      "duration": 1.0,
+      "name": "ghost - merci! - loud"
+    },
+    {
+      "id": "bigRockFinishFr/merciQuiet",
+      "duration": 1.0,
+      "name": "ghost - merci! - quiet"
+    },
+    {
+      "id": "bigRockFinishFr/un",
+      "duration": 1.0,
+      "name": "count in - un"
+    },
+    {
+      "id": "bigRockFinishFr/deux",
+      "duration": 1.0,
+      "name": "count in - deux"
+    },
+    {
+      "id": "bigRockFinishFr/trois",
+      "duration": 1.0,
+      "name": "count in - trois"
+    },
+    {
+      "id": "bigRockFinishFr/hey",
+      "duration": 1.0,
+      "name": "count in - hey"
+    },
+    {
+      "id": "bigRockFinishFr/unFast",
+      "duration": 1.0,
+      "name": "count in - un - fast"
+    },
+    {
+      "id": "bigRockFinishFr/deuxFast",
+      "duration": 1.0,
+      "name": "count in - deux - fast"
+    },
+    {
+      "id": "bigRockFinishFr/troisFast",
+      "duration": 1.0,
+      "name": "count in - drei - fast"
+    },
+    {
+      "id": "bigRockFinishFr/comeOn1",
+      "duration": 0.5,
+      "name": "count in - come on - 1"
+    },
+    {
+      "id": "bigRockFinishFr/comeOn2",
+      "duration": 0.5,
+      "name": "count in - come on - 2"
+    },
+    {
+      "id": "bigRockFinishFr/strum",
+      "duration": 1.0,
+      "canAlterPitch": true,
+      "name": "ghost - strum"
+    },
+    {
+      "id": "bigRockFinishFr/strumFinal",
+      "duration": 2.0,
+      "canAlterPitch": true,
+      "name": "ghost - last strum"
+    },
+    {
+      "id": "bigRockFinishFr/drum",
+      "duration": 1.0,
+      "canAlterPitch": true,
+      "name": "ghost - drumming"
+    }
+    {
+      "id": "bigRockFinishFr/oui",
+      "duration": 1.0,
+      "name": "oui"
+    },
+    {
+      "id": "bigRockFinishDe/ouiFinal",
+      "duration": 2.0,
+      "name": "last oui"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "bigRockFinishFr_countIn8",
+      "name": "count in - 8 beats",
+      "cues": [
+        {
+          "id": "bigRockFinishFr/un",
+          "beat": 0.0
+        },
+        {
+          "id": "bigRockFinishFr/deux",
+          "beat": 2.0
+        },
+        {
+          "id": "bigRockFinishFr/un",
+          "beat": 4.0
+        },
+        {
+          "id": "bigRockFinishFr/deux",
+          "beat": 5.0
+        },
+        {
+          "id": "bigRockFinishFr/trois",
+          "beat": 6.0
+        },
+        {
+          "id": "bigRockFinishFr/hey",
+          "beat": 7.0
+        }
+      ]
+    },
+    {
+      "id": "bigRockFinishFr_countIn4",
+      "name": "count in - 4 beats",
+      "cues": [
+        {
+          "id": "bigRockFinishFr/un",
+          "beat": 0.0
+        },
+        {
+          "id": "bigRockFinishFr/deux",
+          "beat": 1.0
+        },
+        {
+          "id": "bigRockFinishFr/trois",
+          "beat": 2.0
+        },
+        {
+          "id": "bigRockFinishFr/hey",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "id": "bigRockFinishFr_countIn8Fast",
+      "name": "count in - 8 beats - fast",
+      "cues": [
+        {
+          "id": "bigRockFinishFr/unFast",
+          "beat": 0.0
+        },
+        {
+          "id": "bigRockFinishFr/deuxFast",
+          "beat": 2.0
+        },
+        {
+          "id": "bigRockFinishFr/unFast",
+          "beat": 4.0
+        },
+        {
+          "id": "bigRockFinishFr/deuxFast",
+          "beat": 5.0
+        },
+        {
+          "id": "bigRockFinishFr/troisFast",
+          "beat": 6.0
+        },
+        {
+          "id": "bigRockFinishFr/comeOn1",
+          "beat": 7.0
+        },
+        {
+          "id": "bigRockFinishFr/comeOn2",
+          "beat": 7.5
+        }
+      ]
+    },
+    {
+      "id": "bigRockFinishFr_countIn4Fast",
+      "name": "count in - 4 beats - fast",
+      "cues": [
+        {
+          "id": "bigRockFinishFr/unFast",
+          "beat": 0.0
+        },
+        {
+          "id": "bigRockFinishFr/deuxFast",
+          "beat": 1.0
+        },
+        {
+          "id": "bigRockFinishFr/troisFast",
+          "beat": 2.0
+        },
+        {
+          "id": "bigRockFinishFr/comeOn1",
+          "beat": 3.0
+        },
+        {
+          "id": "bigRockFinishFr/comeOn2",
+          "beat": 3.5
+        }
+      ]
+    },
+    {
+      "id": "bigRockFinishFr_strum",
+      "name": "strum",
+      "isStretchable": true,
+      "cues": [
+        {
+          "id": "bigRockFinishFr/strum",
+          "beat": 0.0
+        },
+        {
+          "id": "bigRockFinishFr/drum",
+          "track": 1,
+          "beat": 0.0
+        },
+        {
+          "id": "bigRockFinishFr/oui",
+          "track": 2,
+          "beat": 0.0
+        },
+        {
+          "id": "bigRockFinishFr/strum",
+          "beat": 1.5
+        },
+        {
+          "id": "bigRockFinishFr/drum",
+          "track": 1,
+          "beat": 1.5
+        },
+        {
+          "id": "bigRockFinishFr/oui",
+          "track": 2,
+          "beat": 1.5
+        },
+        {
+          "id": "bigRockFinishFr/strum",
+          "beat": 3.0
+        },
+        {
+          "id": "bigRockFinishFr/drum",
+          "track": 1,
+          "beat": 3.0
+        },
+        {
+          "id": "bigRockFinishFr/oui",
+          "track": 2,
+          "beat": 3.0
+        },
+        {
+          "id": "bigRockFinishFr/strumFinal",
+          "beat": 4.0
+        },
+        {
+          "id": "bigRockFinishFr/drum",
+          "track": 1,
+          "beat": 4.0
+        },
+        {
+          "id": "bigRockFinishFr/ouiFinal",
+          "track": 2,
+          "beat": 4.0
+        }
+      ]
+    }
+  ]
+}

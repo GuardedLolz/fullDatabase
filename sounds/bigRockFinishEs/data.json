@@ -4,6 +4,16 @@
   "series": "ds",
   "cues": [
     {
+      "id": "bigRockFinishEs/graciasLoud",
+      "duration": 1.0,
+      "name": "ghost - gracias! - loud"
+    },
+    {
+      "id": "bigRockFinishEs/graciasQuiet",
+      "duration": 1.0,
+      "name": "ghost - gracias! - quiet"
+    },
+    {
       "id": "bigRockFinishEs/uno",
       "duration": 1.0,
       "name": "count in - uno"
@@ -22,6 +32,26 @@
       "id": "bigRockFinishEs/y",
       "duration": 1.0,
       "name": "count in - y"
+    },
+    {
+      "id": "bigRockFinishEs/unoFast",
+      "duration": 1.0,
+      "name": "count in - uno - fast"
+    },
+    {
+      "id": "bigRockFinishEs/dosFast",
+      "duration": 1.0,
+      "name": "count in - dos - fast"
+    },
+    {
+      "id": "bigRockFinishEs/tresFast",
+      "duration": 1.0,
+      "name": "count in - tres - fast"
+    },
+    {
+      "id": "bigRockFinishEs/ya",
+      "duration": 1.0,
+      "name": "count in - ya"
     },
     {
       "id": "bigRockFinishEs/strum",
@@ -101,6 +131,58 @@
         },
         {
           "id": "bigRockFinishEs/y",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "id": "bigRockFinishEs_countIn8Fast",
+      "name": "count in - 8 beats - fast",
+      "cues": [
+        {
+          "id": "bigRockFinishEs/unoFast",
+          "beat": 0.0
+        },
+        {
+          "id": "bigRockFinishEs/dosFast",
+          "beat": 2.0
+        },
+        {
+          "id": "bigRockFinishEs/unoFast",
+          "beat": 4.0
+        },
+        {
+          "id": "bigRockFinishEs/dosFast",
+          "beat": 5.0
+        },
+        {
+          "id": "bigRockFinishEs/tresFast",
+          "beat": 6.0
+        },
+        {
+          "id": "bigRockFinishEs/ya",
+          "beat": 7.0
+        }
+      ]
+    },
+    {
+      "id": "bigRockFinishEs_countIn4Fast",
+      "name": "count in - 4 beats - fast",
+      "cues": [
+        {
+          "id": "bigRockFinishEs/unoFast",
+          "beat": 0.0
+        },
+        {
+          "id": "bigRockFinishEs/dosFast",
+          "beat": 1.0
+        },
+        {
+          "id": "bigRockFinishEs/tresFast",
+          "beat": 2.0
+        },
+        {
+          "id": "bigRockFinishEs/ya",
           "beat": 3.0
         }
       ]

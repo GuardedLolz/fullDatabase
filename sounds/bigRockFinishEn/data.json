@@ -4,13 +4,18 @@
   "series": "ds",
   "cues": [
     {
-      "id": "bigRockFinishEn/thankYou1",
+      "id": "bigRockFinishEn/thankYouLoud",
       "deprecatedIDs": [
         "bigRockFinish/thankYou",
         "bigRockFinishEn/thankYou"
       ],
       "duration": 1.0,
-      "name": "ghost - thank you! - 1"
+      "name": "ghost - thank you! - loud"
+    },
+    {
+      "id": "bigRockFinishEn/thankYouQuiet",
+      "duration": 1.0,
+      "name": "ghost - thank you! - quiet"
     },
     {
       "id": "bigRockFinishEn/one",
