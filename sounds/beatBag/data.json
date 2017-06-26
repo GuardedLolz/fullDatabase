@@ -34,6 +34,11 @@
       "name": "onbeat - 5"
     },
     {
+      "id": "beatBag/onbeat6",
+      "duration": 0.25,
+      "name": "onbeat - 6"
+    },
+    {
       "id": "beatBag/offbeat1",
       "duration": 0.25,
       "name": "offbeat - quarter - 1"
@@ -73,6 +78,10 @@
         {
           "id": "beatBag/onbeat5",
           "beat": 1.0
+        },
+        {
+          "id": "beatBag/onbeat6",
+          "beat": 1.25
         }
       ]
     },

@@ -4,30 +4,30 @@
   "series": "ds",
   "cues": [
     {
-      "id": "airboarderEs/adalante1",
+      "id": "airboarderEs/adelante1",
       "duration": 6.5,
       "baseBpm": 160,
-      "name": "yeah... adalante! - 1"
+      "name": "yeah... adelante! - 1"
     },
     {
-      "id": "airboarderEs/adalante2",
+      "id": "airboarderEs/adelante2",
       "duration": 0.25,
-      "name": "yeah... adalante! - 2"
+      "name": "yeah... adelante! - 2"
     },
     {
-      "id": "airboarderEs/adalante3",
+      "id": "airboarderEs/adelante3",
       "duration": 0.25,
-      "name": "yeah... adalante! - 3"
+      "name": "yeah... adelante! - 3"
     },
     {
-      "id": "airboarderEs/adalante4",
+      "id": "airboarderEs/adelante4",
       "duration": 0.5,
-      "name": "yeah... adalante! - 4"
+      "name": "yeah... adelante! - 4"
     },
     {
-      "id": "airboarderEs/adalante5",
+      "id": "airboarderEs/adelante5",
       "duration": 0.5,
-      "name": "yeah... adalante! - 5"
+      "name": "yeah... adelante! - 5"
     },
     {
       "id": "airboarderEs/hup",
