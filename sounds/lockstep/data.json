@@ -4,11 +4,6 @@
   "series": "ds",
   "cues": [
     {
-      "id": "lockstep/hai",
-      "duration": 1,
-      "name": "hai"
-    },
-    {
       "id": "lockstep/march1",
       "duration": 1,
       "name": "onbeat - 1"
@@ -19,19 +14,40 @@
       "name": "onbeat - 2"
     },
     {
+      "id": "lockstep/hai1",
+      "deprecatedIDs": [
+        "lockstep/hai"
+      ],
+      "duration": 1,
+      "name": "hai - 1"
+    },
+    {
+      "id": "lockstep/hai2",
+      "duration": 1,
+      "name": "hai - 2"
+    },
+    {
       "id": "lockstep/bkbt_ha",
       "duration": 0.5,
       "name": "onbeat - switch - ha"
     },
     {
       "id": "lockstep/bkbt_hoi",
-      "duration": 0.875,
+      "duration": 1,
       "name": "onbeat - switch - hoi"
     },
     {
-      "id": "lockstep/bkbt_boh",
+      "id": "lockstep/bkbt_boh1",
       "duration": 1,
-      "name": "offbeat - start"
+      "name": "offbeat - start - 1"
+    },
+    {
+      "id": "lockstep/bkbt_boh2",
+      "deprecatedIDs": [
+        "lockstep/bkbt_boh"
+      ],
+      "duration": 1,
+      "name": "offbeat - start - 2"
     },
     {
       "id": "lockstep/march1_bkbt",
@@ -49,9 +65,17 @@
       "name": "offbeat - switch - hee"
     },
     {
-      "id": "lockstep/return_ha",
-      "duration": 0.375,
-      "name": "offbeat - switch - ha"
+      "id": "lockstep/return_ha1",
+      "deprecatedIDs": [
+        "lockstep/return_ha"
+      ],
+      "duration": 0.3333,
+      "name": "offbeat - switch - ha - 1"
+    },
+    {
+      "id": "lockstep/return_ha2",
+      "duration": 0.3333,
+      "name": "offbeat - switch - ha - 2"
     },
     {
       "id": "lockstep/return_heeNoStep",
@@ -60,8 +84,13 @@
     },
     {
       "id": "lockstep/return_haNoStep",
-      "duration": 0.375,
+      "duration": 0.333,
       "name": "offbeat - switch (no step) - ha"
+    },
+    {
+      "id": "lockstep/corruptHai",
+      "duration": 12,
+      "name": "corrupt hai"
     }
   ],
   "patterns": [
@@ -114,15 +143,15 @@
       "name": "on to off",
       "cues": [
         {
-          "id": "lockstep/hai",
+          "id": "lockstep/hai1",
           "beat": 0
         },
         {
-          "id": "lockstep/hai",
+          "id": "lockstep/hai2",
           "beat": 1
         },
         {
-          "id": "lockstep/hai",
+          "id": "lockstep/hai1",
           "beat": 2
         },
         {
@@ -134,11 +163,11 @@
           "beat": 3.5
         },
         {
-          "id": "lockstep/bkbt_boh",
+          "id": "lockstep/bkbt_boh2",
           "beat": 4.5
         },
         {
-          "id": "lockstep/bkbt_boh",
+          "id": "lockstep/bkbt_boh1",
           "beat": 5.5
         }
       ]
@@ -152,7 +181,7 @@
           "beat": 0
         },
         {
-          "id": "lockstep/return_ha",
+          "id": "lockstep/return_ha1",
           "beat": 0.5
         },
         {
@@ -160,11 +189,11 @@
           "beat": 1
         },
         {
-          "id": "lockstep/return_ha",
+          "id": "lockstep/return_ha2",
           "beat": 1.5
         },
         {
-          "id": "lockstep/hai",
+          "id": "lockstep/hai1",
           "beat": 2
         }
       ]
@@ -174,15 +203,15 @@
       "name": "on to off - swing",
       "cues": [
         {
-          "id": "lockstep/hai",
+          "id": "lockstep/hai1",
           "beat": 0
         },
         {
-          "id": "lockstep/hai",
+          "id": "lockstep/hai2",
           "beat": 1
         },
         {
-          "id": "lockstep/hai",
+          "id": "lockstep/hai1",
           "beat": 2
         },
         {
@@ -191,15 +220,15 @@
         },
         {
           "id": "lockstep/bkbt_hoi",
-          "beat": 3.625
+          "beat": 3.667
         },
         {
-          "id": "lockstep/bkbt_boh",
-          "beat": 4.5
+          "id": "lockstep/bkbt_boh2",
+          "beat": 4.667
         },
         {
-          "id": "lockstep/bkbt_boh",
-          "beat": 5.5
+          "id": "lockstep/bkbt_boh1",
+          "beat": 5.667
         }
       ]
     },
@@ -212,19 +241,19 @@
           "beat": 0
         },
         {
-          "id": "lockstep/return_ha",
-          "beat": 0.625
+          "id": "lockstep/return_ha1",
+          "beat": 0.667
         },
         {
           "id": "lockstep/return_hee",
           "beat": 1
         },
         {
-          "id": "lockstep/return_ha",
-          "beat": 1.625
+          "id": "lockstep/return_ha1",
+          "beat": 1.667
         },
         {
-          "id": "lockstep/hai",
+          "id": "lockstep/hai1",
           "beat": 2
         }
       ]
@@ -250,7 +279,7 @@
           "beat": 1.5
         },
         {
-          "id": "lockstep/hai",
+          "id": "lockstep/hai1",
           "beat": 2
         }
       ]
@@ -265,7 +294,7 @@
         },
         {
           "id": "lockstep/return_haNoStep",
-          "beat": 0.625
+          "beat": 0.667
         },
         {
           "id": "lockstep/return_heeNoStep",
@@ -273,10 +302,10 @@
         },
         {
           "id": "lockstep/return_haNoStep",
-          "beat": 1.625
+          "beat": 1.667
         },
         {
-          "id": "lockstep/hai",
+          "id": "lockstep/hai1",
           "beat": 2
         }
       ]

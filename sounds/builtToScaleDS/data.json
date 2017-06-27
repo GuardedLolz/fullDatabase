@@ -46,9 +46,15 @@
           "semitone": 7
         },
         {
+          "id": "builtToScaleDS/c",
+          "beat": 4,
+          "track": 1,
+          "semitone": 12
+        },
+        {
           "id": "builtToScaleDS/pew",
           "beat": 4,
-          "track": 1
+          "track": 2
         }
       ]
     }

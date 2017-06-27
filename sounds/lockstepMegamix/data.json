@@ -1,0 +1,209 @@
+{
+  "gameID": "lockstepMegamix",
+  "gameName": "Lockstep (Megamix)",
+  "series": "megamix",
+  "cues": [
+    {
+      "id": "lockstepMegamix/march1",
+      "duration": 1,
+      "name": "onbeat - 1"
+    },
+    {
+      "id": "lockstepMegamix/march2",
+      "duration": 1,
+      "name": "onbeat - 2"
+    },
+    {
+      "id": "lockstepMegamix/hai1",
+      "duration": 1,
+      "name": "hai - 1"
+    },
+    {
+      "id": "lockstepMegamix/hai2",
+      "duration": 1,
+      "name": "hai - 2"
+    },
+    {
+      "id": "lockstepMegamix/bkbt_ha",
+      "duration": 0.5,
+      "name": "onbeat - switch - ha"
+    },
+    {
+      "id": "lockstepMegamix/bkbt_hoi",
+      "duration": 1,
+      "name": "onbeat - switch - hoi"
+    },
+    {
+      "id": "lockstepMegamix/bkbt_boh1",
+      "duration": 1,
+      "name": "offbeat - start - 1"
+    },
+    {
+      "id": "lockstepMegamix/bkbt_boh2",
+      "duration": 1,
+      "name": "offbeat - start - 2"
+    },
+    {
+      "id": "lockstepMegamix/return_hee",
+      "duration": 0.5,
+      "name": "offbeat - switch - hee"
+    },
+    {
+      "id": "lockstepMegamix/return_ha1",
+      "deprecatedIDs": [
+        "lockstep/return_ha"
+      ],
+      "duration": 0.3333,
+      "name": "offbeat - switch - ha - 1"
+    },
+    {
+      "id": "lockstepMegamix/return_ha2",
+      "duration": 0.3333,
+      "name": "offbeat - switch - ha - 2"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "lockstepMegamix_onbeat",
+      "name": "onbeat",
+      "cues": [
+        {
+          "id": "lockstepMegamix/march1",
+          "beat": 0
+        },
+        {
+          "id": "lockstepMegamix/march2",
+          "beat": 1
+        },
+        {
+          "id": "lockstepMegamix/march1",
+          "beat": 2
+        },
+        {
+          "id": "lockstepMegamix/march2",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "id": "lockstepMegamix_onToOff",
+      "name": "on to off",
+      "cues": [
+        {
+          "id": "lockstepMegamix/hai1",
+          "beat": 0
+        },
+        {
+          "id": "lockstepMegamix/hai2",
+          "beat": 1
+        },
+        {
+          "id": "lockstepMegamix/hai1",
+          "beat": 2
+        },
+        {
+          "id": "lockstepMegamix/bkbt_ha",
+          "beat": 3
+        },
+        {
+          "id": "lockstepMegamix/bkbt_hoi",
+          "beat": 3.5
+        },
+        {
+          "id": "lockstepMegamix/bkbt_boh2",
+          "beat": 4.5
+        },
+        {
+          "id": "lockstepMegamix/bkbt_boh1",
+          "beat": 5.5
+        }
+      ]
+    },
+    {
+      "id": "lockstepMegamix_offToOn",
+      "name": "off to on",
+      "cues": [
+        {
+          "id": "lockstepMegamix/return_hee",
+          "beat": 0
+        },
+        {
+          "id": "lockstepMegamix/return_ha1",
+          "beat": 0.5
+        },
+        {
+          "id": "lockstepMegamix/return_hee",
+          "beat": 1
+        },
+        {
+          "id": "lockstepMegamix/return_ha2",
+          "beat": 1.5
+        },
+        {
+          "id": "lockstepMegamix/hai1",
+          "beat": 2
+        }
+      ]
+    },
+    {
+      "id": "lockstepMegamix_onToOffSwing",
+      "name": "on to off - swing",
+      "cues": [
+        {
+          "id": "lockstepMegamix/hai1",
+          "beat": 0
+        },
+        {
+          "id": "lockstepMegamix/hai2",
+          "beat": 1
+        },
+        {
+          "id": "lockstepMegamix/hai1",
+          "beat": 2
+        },
+        {
+          "id": "lockstepMegamix/bkbt_ha",
+          "beat": 3
+        },
+        {
+          "id": "lockstepMegamix/bkbt_hoi",
+          "beat": 3.667
+        },
+        {
+          "id": "lockstepMegamix/bkbt_boh2",
+          "beat": 4.667
+        },
+        {
+          "id": "lockstepMegamix/bkbt_boh1",
+          "beat": 5.667
+        }
+      ]
+    },
+    {
+      "id": "lockstepMegamix_offToOnSwing",
+      "name": "off to on - swing",
+      "cues": [
+        {
+          "id": "lockstepMegamix/return_hee",
+          "beat": 0
+        },
+        {
+          "id": "lockstepMegamix/return_ha1",
+          "beat": 0.667
+        },
+        {
+          "id": "lockstepMegamix/return_hee",
+          "beat": 1
+        },
+        {
+          "id": "lockstepMegamix/return_ha1",
+          "beat": 1.667
+        },
+        {
+          "id": "lockstepMegamix/hai1",
+          "beat": 2
+        }
+      ]
+    }
+  ]
+}
